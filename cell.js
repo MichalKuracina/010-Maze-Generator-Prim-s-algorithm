@@ -11,16 +11,16 @@ class Cell {
     show() {
         if (this.visited) {
             noStroke();
-            fill(50);
+            fill(255);
             rect(this.x * this.size, this.y * this.size, this.size, this.size);
-        }
 
-        // fill(255);
-        // strokeWeight(1);
-        // text(
-        //     this.index,
-        //     this.x * this.size + this.size / 2,
-        //     this.y * this.size + this.size / 2
-        // );
+            // fill(0);
+            // strokeWeight(1);
+            // text(
+            //     this.index,
+            //     this.x * this.size + this.size / 2,
+            //     this.y * this.size + this.size / 2
+            // );
+        }
     }
 }
